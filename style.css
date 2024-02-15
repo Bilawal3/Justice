@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 770px;
+    background-image:url(img/hero_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -140px;
+}
+.navbar .container-fluid{
+    width: 70%;
+    position: absolute;
+    top: 30px;
+    left: 15%;
+}
+.navbar .container-fluid .navbar-nav{
+    font-size: 14px;
+    gap: 20px;
+}
+.navbar .container-fluid .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar .rightside{
+    width: 370px;
+    height: 144px;
+    position: absolute;
+    top: 31%;
+    right: 20%;
+}
+.navbar .rightside h1 span{
+    font-weight: bold;
+    font-size: 60px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+.navbar .rightside h1{
+    font-size: 60px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #000000;
+
+}
+.navbar .rightside p{
+    width: 430px;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-left: 35px;
+    color: #767779;
+}
+.navbar .rightside p a{
+    color: #B49C73;
+}
+.navbar .rightside button{
+    width: 191.86px;
+    height: 47.5px;
+    background-color: #B49C73;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+    .navbar .container-fluid{
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+    .navbar-nav a{
+        font-weight: bold;
+        color: black;
+    }
+    .navbar .rightside{
+        width: 370px;
+        height: 144px;
+        position: absolute;
+        top: 31%;
+        right: 20%;
+    }
+    .navbar .rightside p{
+        width: 500px;
+        padding-left: 0;
+        color: black;
+    }
+    .navbar .rightside p a{
+        color: black;
+    }
+    .navbar .rightside button{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .navbar .container-fluid{
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+    .navbar-nav a{
+        font-weight: bold;
+        color: black;
+    }
+    .navbar .rightside{
+        width: 370px;
+        height: 144px;
+        position: absolute;
+        top: 31%;
+        right: 20%;
+    }
+    .navbar .rightside p{
+        width: 500px;
+        padding-left: 0;
+        color: black;
+    }
+    .navbar .rightside p a{
+        color: black;
+    }
+    .navbar .rightside button{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .navbar .container-fluid{
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+    .navbar-nav a{
+        font-weight: bold;
+        color: black;
+    }
+    .navbar .rightside{
+        width: 400px;
+        height: 144px;
+        position: relative;
+        top: -10%;
+        left: 5%;
+    }
+    .navbar .rightside p{
+        width: 500px;
+        padding-left: 0;
+        color: white;
+    }
+    .navbar .rightside p a{
+        color: white;
+    }
+    .navbar .rightside button{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .navbar .container-fluid{
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+    .navbar-nav a{
+        font-weight: bold;
+        color: black;
+    }
+    .navbar .rightside{
+        width: 400px;
+        height: 144px;
+        position: relative;
+        top: -10%;
+        left: 5%;
+    }
+    .navbar .rightside p{
+        width: 300px;
+        padding-left: 0;
+        color: black;
+    }
+    .navbar .rightside p a{
+        color: black;
+    }
+    .navbar .rightside button{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 500px){
+    .navbar .container-fluid{
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+    .navbar-nav a{
+        font-weight: bold;
+        color: black;
+    }
+    .navbar .rightside{
+        width: 300px;
+        height: 144px;
+        position: relative;
+        top: -20%;
+        left: 5%;
+    }
+    .navbar .rightside p{
+        width: 300px;
+        padding-left: 0;
+        color: black;
+    }
+    .navbar .rightside p a{
+        color: black;
+    }
+    .navbar .rightside button{
+        margin-left: 0px;
+    }
+}
