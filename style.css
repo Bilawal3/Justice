@@ -171,6 +171,78 @@
     color: #B49C73;
 }
 
+/* ////////////////////////////////////main//////////////////////////////////// */
+.main1 {
+    width: 100%;
+    height: 600px;
+    background-color: #37373F;
+    display: flex;
+    justify-content: center;
+}
+
+.main1 .leftside {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.main1 .leftside h1 {
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.main1 .leftside h1 span {
+    font-weight: bold;
+    font-size: 50px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.main1 .rightside {
+    width: 750px;
+    height: 500px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main1 .rightside .box1 {
+    width: 285px;
+    height: 224px;
+    margin-left: 50px;
+}
+
+.main1 .rightside .box1 h1 {
+    font-size: 80px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.main1 .rightside .box1 h1 span {
+    font-weight: bold;
+    font-size: 80px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+.main1 .rightside .box1 p span {
+    color: white;
+    font-weight: bold;
+}
+
+.main1 .rightside .box1 p {
+    width: 230px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #b2b2b8;
+    line-height: 25px;
+}
 
 
 
@@ -180,10 +252,7 @@
 
 
 
-
-
-
-@media screen and (min-width: 1200px) and (max-width: 1400px){
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
     .main {
         width: 100%;
         height: 600px;
@@ -195,6 +264,7 @@
         margin-top: -80px;
     }
 }
+
 @media screen and (min-width: 980px) and (max-width: 1200px) {
     .navbar .container-fluid {
         width: 90%;
@@ -264,6 +334,7 @@
     .main .leftside button {
         margin-left: 30px;
     }
+
     .main .rightside {
         width: 540px;
         height: 400px;
@@ -302,6 +373,77 @@
 
     .main .rightside ul li p span {
         color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 600px;
+        background-color: #37373F;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main1 .leftside {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 50px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 50px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 700px;
+        height: 500px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 .rightside .box1 {
+        width: 235px;
+        height: 224px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 230px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
     }
 }
 
@@ -417,6 +559,82 @@
     .main .rightside ul li p span {
         color: #B49C73;
     }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 700px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 570px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+        margin-left: 12%;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 750px;
+        height: 500px;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 .rightside .box1 {
+        width: 285px;
+        height: 224px;
+        margin-left: 50px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 230px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -531,6 +749,84 @@
     .main .rightside ul li p span {
         color: #B49C73;
     }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 1000px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 490px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+        margin-left: 13%;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 390px;
+        height: 500px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-left: 13%;
+    }
+
+    .main1 .rightside .box1 {
+        width: 390px;
+        height: 224px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 430px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
 }
 
 @media screen and (min-width: 430px) and (max-width: 600px) {
@@ -644,6 +940,82 @@
     .main .rightside ul li p span {
         color: #B49C73;
     }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 1000px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 390px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 390px;
+        height: 500px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .main1 .rightside .box1 {
+        width: 390px;
+        height: 224px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 430px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
 }
 
 @media screen and (min-width: 350px) and (max-width: 430px) {
@@ -728,7 +1100,7 @@
         width: 320px;
         height: 70.38px;
         list-style-type: none;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .main .rightside ul li .fa-solid {
@@ -755,5 +1127,80 @@
 
     .main .rightside ul li p span {
         color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 1000px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 390px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 390px;
+        height: 500px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 .rightside .box1 {
+        width: 390px;
+        height: 224px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 350px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
     }
 }
