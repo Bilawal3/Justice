@@ -244,6 +244,161 @@
     line-height: 25px;
 }
 
+/* ////////////////////////////////////main2//////////////////////////////////// */
+.main2 {
+    width: 100%;
+    height: 600px;
+    background-color: #2D2D34;
+}
+
+.main2 h1 {
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-top: 5%;
+    margin-left: 15%;
+}
+
+.main2 h1 span {
+    font-weight: bold;
+    font-size: 50px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.main2 .box2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.main2 .box2 .box2-1 {
+    width: 340px;
+    height: 350px;
+}
+
+.main2 .box2 .box2-p {
+    width: 340px;
+    height: 265px;
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.main2 .box2-1 ul {
+    margin-left: -20px;
+    margin-top: 1%;
+}
+
+.main2 .box2-1 ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2 .box2-1 ul li p {
+    font-size: 13px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #b2b2b8;
+    padding-left: 70px;
+    margin-top: -50px;
+}
+
+.main2 .box2-1 ul li p span {
+    color: white;
+}
+/* ////////////////////////////////////main3//////////////////////////////////// */
+.main3 {
+    width: 100%;
+    height: 600px;
+    background-color: #2D2D34;
+}
+
+.main3 h1 {
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-top: 5%;
+    margin-left: 15%;
+}
+
+.main3 h1 span {
+    font-weight: bold;
+    font-size: 50px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.main3 .box2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+.main3 .box2 .box2-1{
+    width: 255px;
+    height: 327px;
+    background-color: white;
+    border-radius: 10px;
+}
+.main3 .box2 .box2-1 p{
+    width: 240px;
+    color: black;
+    padding-top: 15%;
+    padding-left: 30px;
+}
+.main3 .box2 .box2-1 ul li {
+    width: 100px;
+    height: 70.38px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.main3 .box2 .box2-1 ul li .fa-solid {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: #B49C73;
+}
+
+.main3 .box2 .box2-1 ul li h5{
+    width: 100px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #B49C73;
+    line-height: 25px;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.main3 .box2 .box2-1 a{
+    text-decoration: none;
+    color: black;
+
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1020,10 +1175,10 @@
 
 @media screen and (min-width: 350px) and (max-width: 430px) {
     .navbar .container-fluid {
-        width: 90%;
+        width: 89%;
         position: absolute;
         top: 3%;
-        left: 5%;
+        left: 3%;
         text-align: right;
     }
 
@@ -1138,7 +1293,7 @@
     }
 
     .main1 .leftside {
-        width: 390px;
+        width: 350px;
         height: 100px;
         padding-top: 30px;
         margin-left: 0px;
@@ -1161,7 +1316,7 @@
     }
 
     .main1 .rightside {
-        width: 390px;
+        width: 350px;
         height: 500px;
         margin-left: 0px;
         display: flex;
@@ -1169,13 +1324,14 @@
     }
 
     .main1 .rightside .box1 {
-        width: 390px;
+        width: 350px;
         height: 224px;
         margin-left: 0px;
         padding-left: 20px;
     }
 
     .main1 .rightside .box1 h1 {
+        width: 200px;
         font-size: 80px;
         font-family: "Rubik", sans-serif;
         font-weight: 500;
@@ -1196,11 +1352,48 @@
     }
 
     .main1 .rightside .box1 p {
-        width: 350px;
+        width: 330px;
         font-size: 16px;
         font-family: "Rubik", sans-serif;
         font-weight: 500;
         color: #b2b2b8;
         line-height: 25px;
+    }
+
+    /* ////////////////////////////////////main2//////////////////////////////////// */
+    .main2 {
+        width: 100%;
+        height: 1200px;
+        background-color: #2D2D34;
+    }
+
+    .main2 h1 {
+        width: 300px;
+        font-size: 40px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+        padding-top: 5%;
+        margin-left: 6%;
+    }
+
+    .main2 .box2 {
+        width: 80%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+    .main2 .box2 .box2-1 {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .main2 .box2 .box2-p {
+        width: 300px;
+        height: 265px;
+        background-color: white;
+        color: black;
+        padding-top: 30px;
+        padding-left: 20px;
     }
 }
